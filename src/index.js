@@ -13,7 +13,7 @@ root.render(
   <StrictMode>
     {/* We need to enclose all the contents inside the ChakraProvider to sell the chakra designs in the app */}
     <ChakraProvider>
-      <ColorModeSwitcher pos={'absolute'} top={'4'} right={'4'}/>
+      <ColorModeSwitcher pos={'absolute'} top={2} right={4}/>
       <App/>
     </ChakraProvider>
   </StrictMode>
